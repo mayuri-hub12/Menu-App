@@ -2,7 +2,7 @@
 function Menu(){
 return(
     
-        <div> <img id="glass" src="src/assets/glass3.jpg"></img></div>
+        <div> <img id="glass" src="public/glass3.jpg"></img></div>
    
     
 );

@@ -23,9 +23,9 @@ export  function SearchBar(){
 export function EntreesServe(){
     return(
         <div className="entrees">
-            <img id="food-serve" src="src/assets/new entree-serve.png">
+            <img id="food-serve" src="public/new entree-serve.png">
             </img>
-            <div className="entree-text"><div className="steam"> <img id="steam" src="src/assets/steam.jpg"></img><p id="h1">Entrees</p><img id="steam" src="src/assets/steam.jpg"></img></div>
+            <div className="entree-text"><div className="steam"> <img id="steam" src="public/steam.jpg"></img><p id="h1">Entrees</p><img id="steam" src="public/steam.jpg"></img></div>
             <p id="p2">Serve with pasta</p></div>
         </div>
     );
