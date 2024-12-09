@@ -12,7 +12,7 @@ export  function SearchBar(){
     return (
         <div className="searchbar">
             <p id="p1">Entrees</p>
-             <a href="Drinks.jsx" target="_blank"><p id="p1">Drinks</p></a>
+            <p id="p1">Drinks</p>
              <p id="p1">Desserts</p>
               <p id="p1">The classic</p>
                

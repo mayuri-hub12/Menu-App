@@ -82,6 +82,7 @@ padding-bottom: 10px;
     border: hidden;
     border-top-right-radius:  50px;
     border-top-left-radius:  50px;
+    object-fit: cover;
 }
 
 .entree-text{
