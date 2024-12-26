@@ -2,7 +2,7 @@
 import { EntreesServe } from "./RestoName";
 
 export function Entrees(){
-        const imageurl="public/new entree-serve.png";
+        const imageurl="new entree-serve.png";
     return (
       <>
         <EntreesServe
