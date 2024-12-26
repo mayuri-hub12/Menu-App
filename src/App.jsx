@@ -1,28 +1,36 @@
-import { useState } from 'react'
-import Menu from './menu';
-import RestoName from './RestoName';
-import {SearchBar} from './RestoName';
-import {EntreesServe} from './RestoName';
-import {Dishes} from './Dishes';
-import Drinks  from './Drinks';
+import { useState } from "react";
+import Home from "./Home";
+import RestoName from "./RestoName";
 
-import './App.css'
-import './Menu.css'
-import './RestoName.css'
+import { EntreesServe } from "./RestoName";
+import { Entrees } from "./Entrees";
+import Drinks from "./Drinks";
+
+import "./App.css";
+import "./Menu.css";
+import "./RestoName.css";``
+import SearchBar from "./Searchbar";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Desserts from "./Desserts";
+import Classic from "./Classic";
 
 function App() {
-  return( <>
-  <Menu></Menu>
-<RestoName></RestoName>
-<SearchBar></SearchBar>
-<EntreesServe></EntreesServe>
-<Dishes></Dishes>
-<Drinks></Drinks>
-
-</>
-
+  return (
+    <>
+      <BrowserRouter>
+        <Home></Home>
+        <RestoName></RestoName>
+        <SearchBar></SearchBar>
+        <Routes>
+          <Route path="/" element={<Entrees/>}></Route>
+          <Route path="/Entrees" element={<Entrees/>}></Route>
+          <Route path="/Drinks" element={<Drinks/>}></Route>
+          <Route path="/Desserts" element={<Desserts/>}></Route>
+          <Route path="/Classic" element={<Classic/>}></Route>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
-   
 }
 
-export default App
+export default App;

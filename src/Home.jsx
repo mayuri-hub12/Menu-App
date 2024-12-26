@@ -1,5 +1,5 @@
 
-function Menu(){
+function Home(){
 return(
     
         <div> <img id="glass" src="glass3.jpg"></img></div>
@@ -8,5 +8,5 @@ return(
 );
 }
 
-export default Menu;
+export default Home;
 
